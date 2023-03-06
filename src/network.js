@@ -27,7 +27,7 @@ class NeuralNetwork{
             for(let i=0;i<level.biases.length;i++){
                 level.biases[i]=lerp(
                     level.biases[i],
-                    Math.random() * 3 - 1,
+                    Math.random() * 100 - 1,
                     amount
                 )
             }
@@ -35,7 +35,7 @@ class NeuralNetwork{
                 for(let j=0;j<level.weights[i].length;j++){
                     level.weights[i][j]=lerp(
                         level.weights[i][j],
-                        Math.random() * 3 - 1,
+                        Math.random() * 100 - 1,
                         amount
                     )
                 }
